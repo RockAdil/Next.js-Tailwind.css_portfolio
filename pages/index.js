@@ -43,7 +43,8 @@ export default function Home() {
               <li>
                 <a
                   className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-3 py-1.5 rounded-md ml-4 md:ml-8 md:px-4 md:py-2'
-                  href='#'
+                  href='https://drive.google.com/file/d/10UJvypIc_74c9d2xjIOq1V0Lagu27IAU/view?usp=sharing'
+                  target='_blank'
                 >
                   Resume
                 </a>
@@ -67,13 +68,13 @@ export default function Home() {
 
           {/* DIV 3 */}
           <div className='text-5xl flex justify-center gap-16 text-gray-700 dark:text-gray-400'>
-            <a href='https://twitter.com/' target='_blank'>
+            <a href='https://adilahamed.vercel.app/' target='_blank'>
               <PiLinkFill />
             </a>
-            <a href='www.linkedin.com/in/adil-ahamed189' target='_blank'>
+            <a href='https://www.instagram.com/rock_ster_adil/' target='_blank'>
               <AiFillInstagram />
             </a>
-            <a href='https://twitter.com/' target='_blank'>
+            <a href='www.linkedin.com/in/adil-ahamed189' target='_blank'>
               <AiFillLinkedin />
             </a>
           </div>
@@ -243,8 +244,12 @@ export default function Home() {
         <footer className='pt-8 pb-6 text-center'>
           <p className='text-xs md:text-sm dark:text-gray-300'>
             &copy; Developed by{' '}
-            <span className='text-teal-500 font-medium'>Adil Ahamed</span>, All
-            rights reserved.
+            <span className='text-teal-500 font-medium'>
+              <a href='https://adilahamed.vercel.app/' target='_blank'>
+                Adil Ahamed
+              </a>
+            </span>
+            , All rights reserved.
           </p>
         </footer>
       </main>
